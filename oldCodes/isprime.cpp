@@ -1,15 +1,15 @@
 #include<iostream>
 using namespace std;
-bool isprime(int x)
+bool isprime(long long x)
 {
-  for(int i=2;i<x;i++)
+  for(long long i=2;i*i<=x;i++)
     if(x%i==0)
       return false;
   return true;
 }
 int main()
 {
-  int n;cin>>n;
+  long long n;cin>>n;
   if(isprime(n))
     cout<<"prime"<<endl;
   else
