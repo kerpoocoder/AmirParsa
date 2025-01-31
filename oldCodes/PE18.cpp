@@ -1,7 +1,7 @@
 #include<iostream>
 #include<fstream>
 using namespace std;
-ifstream fin("input11.txt");
+ifstream fin("input18.txt");
 int a[20][20];
 int f(int i,int j)
 {
