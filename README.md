@@ -397,7 +397,8 @@ int digit_sum(int n)
 
 <a href="http://projecteuler.net/problem=3" target="_blank">3</a>,
 <a href="http://projecteuler.net/problem=4" target="_blank">4</a>,
-<a href="http://projecteuler.net/problem=22" target="_blank">22</a><br>
+<a href="http://projecteuler.net/problem=22" target="_blank">22</a>,
+<a href="http://projecteuler.net/problem=53" target="_blank">53</a><br>
 
 </details>
 

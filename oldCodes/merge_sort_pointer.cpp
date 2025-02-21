@@ -39,11 +39,12 @@ void merge_sort(int *l,int *r)
 }
 int main()
 {
-  int n,a[100];
+  int n;
   cin>>n;
+  vector<int>a(n+1);
   for(int i=1;i<=n;i++)
     cin>>a[i];
-  merge_sort(a+1,a+n);
+  sort(a.begin()+1,a.end());
   for(int i=1;i<=n;i++)
     cout<<a[i]<<" ";
 }
