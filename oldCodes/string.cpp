@@ -12,4 +12,11 @@ int main()
   cout<<endl;
   int two='2';
   cout<<two<<endl;
+  cout<<s.substr(3,9)<<endl;
+  if(s.find("parp")>s.size())
+    cout<<"Not exist"<<endl;
+  else
+    cout<<"Exist"<<endl;
+  getline(cin,s);
+  cout<<s<<endl;
 }
